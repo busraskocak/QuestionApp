@@ -1,10 +1,13 @@
- const questions = [
+import Cinseddi from "./public/img/cin-seddi.jpg"
+
+
+const questions = [
   {
     id:1,
     question: "Çin Seddini oluşturan taşlar birbirine ne ile tutturulmuştur?",
     options: ["Bambu Harcı", "Anne Duası", "Pirinç Unu", "Noodle"],
     answer: "Pirinç Unu",
-    media: "cin-seddi.jpg",
+    media: Cinseddi,
   },
   {
     id:2,

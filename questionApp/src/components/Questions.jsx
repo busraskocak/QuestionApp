@@ -67,7 +67,7 @@ function Questions() {
     <div>
       <div className='questions'>
         <p className='timer'>{timer}</p>
-        <img src={`/img/${question.media}`} alt="" width= '300' />
+        <img src={question.media} alt="" width= '300' />
         <h2>{index + 1}. {question.question}</h2>
         {options && (
           <div className='options'>
